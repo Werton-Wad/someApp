@@ -1,0 +1,16 @@
+.memes__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.memes {
+    max-width:100%;
+    height: auto;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.active__mem {
+    border: 1px solid red;
+}
